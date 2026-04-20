@@ -4,7 +4,7 @@ description: Create a bug report to help improve Reactive Resume
 
 title: "[Bug] <title>"
 labels: [bug, v5, needs triage]
-assignees: "AmruthPillai"
+assignees: "daniyal44"
 
 body:
   - type: checkboxes

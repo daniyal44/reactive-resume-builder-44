@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Uusi vahvistuslinkki on lähetetty sähköpostiosoitteeseesi. Tarkista postilaatikkosi vahvistaaksesi tilisi."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Rakkaudella tehty projekti, jonka on luonut <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Rakkaudella tehty projekti, jonka on luonut <0>Muhammad Daniyal</0>."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

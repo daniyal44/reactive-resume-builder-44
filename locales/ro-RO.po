@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Un nou link de verificare a fost trimis la adresa dvs. de e-mail. Vă rugăm să vă verificați inboxul pentru a vă verifica contul."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Un proiect de pasiune realizat de <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Un proiect de pasiune realizat de <0>Muhammad Daniyal</0>."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

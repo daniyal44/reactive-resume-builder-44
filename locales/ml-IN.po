@@ -131,7 +131,7 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "നിങ്ങളുടെ ഇമെയിൽ വിലാസത്തിലേക്ക് പുതിയൊരു സ്ഥിരീകരണ ലിങ്ക് അയച്ചിട്ടുണ്ട്. നിങ്ങളുടെ അക്കൗണ്ട് സ്ഥിരീകരിക്കാൻ ഇൻബോക്സ് പരിശോധിക്കുക."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
 msgstr "<0>അമൃത് പിള്ള</0>യുടെ ഒരു പാഷൻ പ്രോജക്ട്."
 
 #: src/dialogs/resume/index.tsx

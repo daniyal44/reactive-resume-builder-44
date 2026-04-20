@@ -20,8 +20,8 @@ Reactive Resume can be self-hosted using Docker in a matter of minutes, and this
 
 You can pull the latest app image from:
 
-- Docker Hub: `amruthpillai/reactive-resume:latest`
-- GitHub Container Registry: `ghcr.io/amruthpillai/reactive-resume:latest`
+- Docker Hub: `daniyal44/reactive-resume-builder-44:latest`
+- GitHub Container Registry: `ghcr.io/daniyal44/reactive-resume-builder-44:latest`
 
 ## Minimum requirements
 
@@ -181,8 +181,8 @@ services:
       retries: 10
 
   reactive-resume:
-    image: amruthpillai/reactive-resume:latest
-    # image: ghcr.io/amruthpillai/reactive-resume:latest
+    image: daniyal44/reactive-resume-builder-44:latest
+    # image: ghcr.io/daniyal44/reactive-resume-builder-44:latest
     restart: unless-stopped
     ports:
       - "3000:3000"
@@ -223,7 +223,7 @@ volumes:
     </Note>
 
     <Tip>
-      Prefer pulling from Docker Hub? Keep <code>amruthpillai/reactive-resume:latest</code>. Prefer GHCR? Swap it to <code>ghcr.io/amruthpillai/reactive-resume:latest</code>.
+      Prefer pulling from Docker Hub? Keep <code>daniyal44/reactive-resume-builder-44:latest</code>. Prefer GHCR? Swap it to <code>ghcr.io/daniyal44/reactive-resume-builder-44:latest</code>.
     </Tip>
 
   </Step>

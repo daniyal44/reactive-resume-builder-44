@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Pautan pengesahan baharu telah dihantar ke alamat e-mel anda. Sila semak peti masuk anda untuk mengesahkan akaun anda."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Sebuah projek yang digerakkan oleh <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Sebuah projek yang digerakkan oleh <0>Muhammad Daniyal</0>."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

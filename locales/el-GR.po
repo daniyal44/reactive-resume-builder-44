@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Ένας νέος σύνδεσμος επαλήθευσης στάλθηκε στη διεύθυνση email σας. Ελέγξτε τα εισερχόμενά σας για να επαληθεύσετε τον λογαριασμό σας."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Ένα έργο πάθους από τον <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Ένα έργο πάθους από τον <0>Muhammad Daniyal</0>."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

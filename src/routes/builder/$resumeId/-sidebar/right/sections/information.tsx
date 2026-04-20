@@ -61,7 +61,7 @@ export function InformationSectionBuilder() {
           className="text-xs"
           nativeButton={false}
           render={
-            <a href="https://github.com/amruthpillai/reactive-resume" target="_blank" rel="noopener">
+            <a href="https://github.com/daniyal44/reactive-resume-builder-44" target="_blank" rel="noopener">
               <Trans>Source Code</Trans>
             </a>
           }
@@ -73,7 +73,7 @@ export function InformationSectionBuilder() {
           className="text-xs"
           nativeButton={false}
           render={
-            <a href="https://github.com/amruthpillai/reactive-resume/issues" target="_blank" rel="noopener">
+            <a href="https://github.com/daniyal44/reactive-resume-builder-44/issues" target="_blank" rel="noopener">
               <Trans>Report a Bug</Trans>
             </a>
           }

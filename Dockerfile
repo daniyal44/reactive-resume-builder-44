@@ -35,14 +35,14 @@ RUN pnpm run build
 # ---------- Runtime Layer ----------
 FROM node:24-slim AS runtime
 
-LABEL maintainer="amruthpillai"
+LABEL maintainer="daniyal44"
 LABEL org.opencontainers.image.licenses="MIT"
 LABEL org.opencontainers.image.title="Reactive Resume"
 LABEL org.opencontainers.image.description="A free and open-source resume builder."
 LABEL org.opencontainers.image.vendor="Muhammad Daniyal Khan"
 LABEL org.opencontainers.image.url="https://getownresume.netlify.app/"
 LABEL org.opencontainers.image.documentation="https://docs.getownresume.netlify.app/"
-LABEL org.opencontainers.image.source="https://github.com/amruthpillai/reactive-resume"
+LABEL org.opencontainers.image.source="https://github.com/daniyal44/reactive-resume-builder-44"
 
 RUN apt-get update && apt-get install -y --no-install-recommends curl \
     && rm -rf /var/lib/apt/lists/*

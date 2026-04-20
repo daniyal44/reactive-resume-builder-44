@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Uz jūsu e-pasta adresi ir nosūtīta jauna verifikācijas saite. Lūdzu, pārbaudiet savu iesūtni, lai verificētu kontu."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Aizrautības projekts, ko veidojis <0>Amruth Pillai</0>."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Aizrautības projekts, ko veidojis <0>Muhammad Daniyal</0>."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

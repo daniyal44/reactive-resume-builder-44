@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "Új megerősítő linket küldtünk az e‑mail‑címedre. Kérjük, ellenőrizd a postafiókodat a fiókod hitelesítéséhez."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "Egy szenvedélyprojekt <0>Amruth Pillai</0> tollából."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "Egy szenvedélyprojekt <0>Muhammad Daniyal</0> tollából."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

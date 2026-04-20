@@ -27,10 +27,10 @@ export function Copyright({ className, ...props }: Props) {
           <a
             target="_blank"
             rel="noopener"
-            href="https://amruthpillai.com"
+            href="https://daniyal44.com"
             className="font-medium underline underline-offset-2"
           >
-            Amruth Pillai
+            Muhammad Daniyal
           </a>
           .
         </Trans>

@@ -178,7 +178,7 @@ jobs:
             --annotation "index:org.opencontainers.image.vendor=Muhammad Daniyal Khan" \
             --annotation "index:org.opencontainers.image.url=https://getownresume.netlify.app/" \
             --annotation "index:org.opencontainers.image.documentation=https://docs.getownresume.netlify.app/" \
-            --annotation "index:org.opencontainers.image.source=https://github.com/amruthpillai/reactive-resume" \
+            --annotation "index:org.opencontainers.image.source=https://github.com/daniyal44/reactive-resume-builder-44" \
             --annotation "index:org.opencontainers.image.version=${{ steps.version.outputs.version }}" \
             $(printf 'ghcr.io/${{ env.IMAGE }}@sha256:%s ' *) \
             $(printf 'docker.io/${{ env.IMAGE }}@sha256:%s ' *)

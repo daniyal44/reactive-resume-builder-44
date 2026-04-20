@@ -116,7 +116,7 @@
         {
           "icon": "github",
           "anchor": "Source Code",
-          "href": "https://github.com/amruthpillai/reactive-resume"
+          "href": "https://github.com/daniyal44/reactive-resume-builder-44"
         }
       ]
     }
@@ -129,7 +129,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "https://github.com/amruthpillai/reactive-resume/issues"
+        "href": "https://github.com/daniyal44/reactive-resume-builder-44/issues"
       }
     ],
     "primary": {
@@ -144,7 +144,7 @@
   "footer": {
     "socials": {
       "website": "https://getownresume.netlify.app/",
-      "github": "https://github.com/amruthpillai/reactive-resume"
+      "github": "https://github.com/daniyal44/reactive-resume-builder-44"
     }
   }
 }

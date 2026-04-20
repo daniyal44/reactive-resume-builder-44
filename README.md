@@ -14,13 +14,13 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/github/package-json/v/amruthpillai/reactive-resume?style=flat-square" alt="Reactive Resume version">
-    <img src="https://img.shields.io/github/stars/amruthpillai/Reactive-Resume?style=flat-square" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/license/amruthpillai/Reactive-Resume?style=flat-square" alt="License" />
-    <img src="https://img.shields.io/docker/pulls/amruthpillai/reactive-resume?style=flat-square" alt="Docker Pulls" />
+    <img src="https://img.shields.io/github/package-json/v/daniyal44/reactive-resume-builder-44?style=flat-square" alt="Reactive Resume version">
+    <img src="https://img.shields.io/github/stars/daniyal44/reactive-resume-builder-44?style=flat-square" alt="GitHub Stars">
+    <img src="https://img.shields.io/github/license/daniyal44/reactive-resume-builder-44?style=flat-square" alt="License" />
+    <img src="https://img.shields.io/docker/pulls/daniyal44/reactive-resume-builder-44?style=flat-square" alt="Docker Pulls" />
     <a href="https://discord.gg/aSyA5ZSxpb"><img src="https://img.shields.io/discord/1173518977851473940?style=flat-square&label=discord" alt="Discord" /></a>
     <a href="https://crowdin.com/project/reactive-resume"><img src="https://badges.crowdin.net/reactive-resume/localized.svg?style=flat-square" alt="Crowdin" /></a>
-    <a href="https://github.com/sponsors/AmruthPillai"><img src="https://img.shields.io/github/sponsors/AmruthPillai?style=flat-square&label=sponsors" alt="Sponsors" /></a>
+    <a href="https://github.com/sponsors/daniyal44"><img src="https://img.shields.io/github/sponsors/daniyal44?style=flat-square&label=sponsors" alt="Sponsors" /></a>
     <a href="https://opencollective.com/reactive-resume"><img src="https://img.shields.io/opencollective/backers/reactive-resume?style=flat-square&label=donations" alt="Donations" /></a>
   </p>
 </div>
@@ -135,7 +135,7 @@ The quickest way to run Reactive Resume locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/amruthpillai/reactive-resume.git
+git clone https://github.com/daniyal44/reactive-resume-builder-44.git
 cd reactive-resume
 
 # Start all services
@@ -145,7 +145,7 @@ docker compose up -d
 open http://localhost:3000
 ```
 
-[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/amruthpillai/reactive-resume)
+[![Build with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/daniyal44/reactive-resume-builder-44)
 
 For detailed setup instructions, environment configuration, and self-hosting guides, see the [documentation](https://docs.getownresume.netlify.app/).
 
@@ -187,10 +187,10 @@ Pull the latest image from Docker Hub or GitHub Container Registry:
 
 ```bash
 # Docker Hub
-docker pull amruthpillai/reactive-resume:latest
+docker pull daniyal44/reactive-resume-builder-44:latest
 
 # GitHub Container Registry
-docker pull ghcr.io/amruthpillai/reactive-resume:latest
+docker pull ghcr.io/daniyal44/reactive-resume-builder-44:latest
 ```
 
 See the [self-hosting guide](https://docs.getownresume.netlify.app//self-hosting/docker) for complete instructions.
@@ -200,7 +200,7 @@ See the [self-hosting guide](https://docs.getownresume.netlify.app//self-hosting
 Reactive Resume is and always will be free and open-source. If it has helped you land a job or saved you time, please consider supporting continued development:
 
 <p>
-  <a href="https://github.com/sponsors/AmruthPillai">
+  <a href="https://github.com/sponsors/daniyal44">
     <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-ea4aaa?style=flat-square&logo=github-sponsors" alt="GitHub Sponsors" />
   </a>
   <a href="https://opencollective.com/reactive-resume">
@@ -217,11 +217,11 @@ Other ways to support:
 
 ## Star History
 
-<a href="https://www.star-history.com/#amruthpillai/reactive-resume&type=date&legend=top-left">
+<a href="https://www.star-history.com/#daniyal44/reactive-resume-builder-44&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=amruthpillai/reactive-resume&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=daniyal44/reactive-resume-builder-44&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=daniyal44/reactive-resume-builder-44&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=daniyal44/reactive-resume-builder-44&type=date&legend=top-left" />
  </picture>
 </a>
 

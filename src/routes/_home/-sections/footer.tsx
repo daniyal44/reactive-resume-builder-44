@@ -29,20 +29,20 @@ type SocialLink = {
 const getResourceLinks = (): FooterLinkItem[] => [
   { url: "https://docs.getownresume.netlify.app/", label: t`Documentation` },
   { url: "https://opencollective.com/reactive-resume", label: t`Sponsorships` },
-  { url: "https://github.com/amruthpillai/reactive-resume", label: t`Source Code` },
+  { url: "https://github.com/daniyal44/reactive-resume-builder-44", label: t`Source Code` },
   { url: "https://docs.getownresume.netlify.app//changelog", label: t`Changelog` },
 ];
 
 const getCommunityLinks = (): FooterLinkItem[] => [
-  { url: "https://github.com/amruthpillai/reactive-resume/issues", label: t`Report an issue` },
+  { url: "https://github.com/daniyal44/reactive-resume-builder-44/issues", label: t`Report an issue` },
   { url: "https://crowdin.com/project/reactive-resume", label: t`Translations` },
   { url: "https://reddit.com/r/reactiveresume", label: t`Subreddit` },
   { url: "https://discord.gg/aSyA5ZSxpb", label: t`Discord` },
 ];
 
 const socialLinks: SocialLink[] = [
-  { url: "https://github.com/amruthpillai/reactive-resume", label: "GitHub", icon: GithubLogoIcon },
-  { url: "https://linkedin.com/in/amruthpillai", label: "LinkedIn", icon: LinkedinLogoIcon },
+  { url: "https://github.com/daniyal44/reactive-resume-builder-44", label: "GitHub", icon: GithubLogoIcon },
+  { url: "https://linkedin.com/in/daniyal44", label: "LinkedIn", icon: LinkedinLogoIcon },
   { url: "https://x.com/KingOKings", label: "X (Twitter)", icon: XLogoIcon },
 ];
 

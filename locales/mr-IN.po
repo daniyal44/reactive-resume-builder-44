@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "तुमच्या ईमेल पत्त्यावर नवीन पडताळणी लिंक पाठवली आहे. तुमचे खाते पडताळण्यासाठी कृपया इनबॉक्स तपासा."
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "<0>Amruth Pillai</0> यांचा प्रचंड आवडीचा प्रकल्प."
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "<0>Muhammad Daniyal</0> यांचा प्रचंड आवडीचा प्रकल्प."
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

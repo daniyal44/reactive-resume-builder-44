@@ -223,7 +223,7 @@ export const DonationBanner = () => (
           nativeButton={false}
           className="h-11 gap-2 px-6"
           render={
-            <a href="https://github.com/sponsors/AmruthPillai" target="_blank" rel="noopener">
+            <a href="https://github.com/sponsors/daniyal44" target="_blank" rel="noopener">
               <GithubLogoIcon aria-hidden="true" weight="fill" className="text-zinc-400 dark:text-zinc-600" />
               GitHub Sponsors
               <span className="sr-only"> ({t`opens in new tab`})</span>

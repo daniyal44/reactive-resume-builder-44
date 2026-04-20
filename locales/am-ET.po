@@ -131,8 +131,8 @@ msgid "A new verification link has been sent to your email address. Please check
 msgstr "አዲስ የማረጋገጫ አገናኝ ወደ ኢሜል አድራሻዎ ተልኳል። መለያዎን ለማረጋገጥ ኢንቦክስዎን ያረጋግጡ።"
 
 #: src/components/ui/copyright.tsx
-msgid "A passion project by <0>Amruth Pillai</0>."
-msgstr "በ<0>Amruth Pillai</0> የተጀመረ የልብ ፕሮጀክት።"
+msgid "A passion project by <0>Muhammad Daniyal</0>."
+msgstr "በ<0>Muhammad Daniyal</0> የተጀመረ የልብ ፕሮጀክት።"
 
 #: src/dialogs/resume/index.tsx
 #: src/dialogs/resume/index.tsx

@@ -70,8 +70,8 @@ services:
         condition: service_healthy
 
   reactive_resume:
-    image: amruthpillai/reactive-resume:latest
-    # image: ghcr.io/amruthpillai/reactive-resume:latest
+    image: daniyal44/reactive-resume-builder-44:latest
+    # image: ghcr.io/daniyal44/reactive-resume-builder-44:latest
     environment:
       # Server
       - TZ=Etc/UTC
