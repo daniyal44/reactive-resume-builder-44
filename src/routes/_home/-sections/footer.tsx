@@ -42,7 +42,7 @@ const getCommunityLinks = (): FooterLinkItem[] => [
 
 const socialLinks: SocialLink[] = [
   { url: "https://github.com/daniyal44/reactive-resume-builder-44", label: "GitHub", icon: GithubLogoIcon },
-  { url: "https://linkedin.com/in/daniyal44", label: "LinkedIn", icon: LinkedinLogoIcon },
+  { url: "www.linkedin.com/in/muhammad-d-9243b5243", label: "LinkedIn", icon: LinkedinLogoIcon },
   { url: "https://x.com/KingOKings", label: "X (Twitter)", icon: XLogoIcon },
 ];
 
