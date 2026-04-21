@@ -167,8 +167,8 @@ For detailed setup instructions, environment configuration, and self-hosting gui
 
 Comprehensive guides are available at [docs.rxresu.me](https://docs.getownresume.netlify.app/):
 
-| Guide                                                                        | Description                      |
-| ---------------------------------------------------------------------------- | -------------------------------- |
+| Guide                                                                                        | Description                      |
+| -------------------------------------------------------------------------------------------- | -------------------------------- |
 | [Getting Started](https://docs.getownresume.netlify.app//getting-started)                    | First-time setup and basic usage |
 | [Self-Hosting](https://docs.getownresume.netlify.app//self-hosting/docker)                   | Deploy on your own server        |
 | [Development Setup](https://docs.getownresume.netlify.app//contributing/development)         | Local development environment    |

@@ -90,7 +90,11 @@ function RouteComponent() {
               variant="link"
               nativeButton={false}
               render={
-                <a href="https://docs.getownresume.netlify.app//api-reference" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://docs.getownresume.netlify.app//api-reference"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <LinkSimpleIcon />
                   <Trans>API Reference</Trans>
                 </a>

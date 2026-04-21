@@ -41,7 +41,7 @@ async function handler({ request }: { request: Request }) {
         version: __APP_VERSION__,
         description: "Reactive Resume API",
         license: { name: "MIT", url: "https://github.com/daniyal44/reactive-resume-builder-44/blob/main/LICENSE" },
-        contact: { name: "Muhammad Daniyal", email: "m.daniyalkhan490@gmail.com", url: "https://daniyal44.com" },
+        contact: { name: "Muhammad Daniyal", email: "m.daniyalkhan490@gmail.com", url: "https://mdkworks.online" },
       },
       servers: [{ url: `${env.APP_URL}/api/openapi` }],
       externalDocs: { url: "https://docs.getownresume.netlify.app/", description: "Reactive Resume Documentation" },

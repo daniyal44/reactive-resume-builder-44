@@ -1,6 +1,6 @@
 import { t } from "@lingui/core/macro";
 import { Trans } from "@lingui/react/macro";
-import { FingerprintIcon, GithubLogoIcon, GoogleLogoIcon, LinkedinLogoIcon, VaultIcon } from "@phosphor-icons/react";
+import { FingerprintIcon, GithubLogoIcon, GoogleLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react";
 import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "@tanstack/react-router";
 import { useEffect, useRef } from "react";
@@ -12,7 +12,6 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { authClient } from "@/integrations/auth/client";
 import { orpc } from "@/integrations/orpc/client";
-import { cn } from "@/utils/style";
 
 export function SocialAuth() {
   const { data: providers = {}, isLoading } = useQuery(orpc.auth.providers.list.queryOptions());
@@ -70,23 +69,6 @@ function SocialAuthButtons({ providers }: SocialAuthButtonsProps) {
     await router.invalidate();
   };
 
-  const handleOAuthLogin = async () => {
-    const toastId = toast.loading(t`Signing in...`);
-
-    const { error } = await authClient.signIn.oauth2({
-      providerId: "custom",
-      callbackURL: "/dashboard",
-    });
-
-    if (error) {
-      toast.error(error.message, { id: toastId });
-      return;
-    }
-
-    toast.dismiss(toastId);
-    await router.invalidate();
-  };
-
   const handlePasskeyLogin = async () => {
     const toastId = toast.loading(t`Signing in...`);
 
@@ -124,17 +106,9 @@ function SocialAuthButtons({ providers }: SocialAuthButtonsProps) {
     <div className="grid grid-cols-2 gap-4">
       <Button
         variant="secondary"
-        onClick={handleOAuthLogin}
-        className={cn("hidden", "custom" in providers && "inline-flex")}
-      >
-        <VaultIcon />
-        {providers.custom}
-      </Button>
-
-      <Button
-        variant="secondary"
         onClick={handlePasskeyLogin}
-        className={cn("hidden", "passkey" in providers && "inline-flex")}
+        disabled={!("passkey" in providers)}
+        className="inline-flex w-full bg-zinc-800 text-white hover:bg-zinc-800/90 dark:bg-zinc-200 dark:text-zinc-900 dark:hover:bg-zinc-200/90"
       >
         <FingerprintIcon />
         Passkey
@@ -142,10 +116,8 @@ function SocialAuthButtons({ providers }: SocialAuthButtonsProps) {
 
       <Button
         onClick={() => handleSocialLogin("google")}
-        className={cn(
-          "hidden flex-1 bg-[#4285F4] text-white hover:bg-[#4285F4]/80",
-          "google" in providers && "inline-flex",
-        )}
+        disabled={!("google" in providers)}
+        className="inline-flex w-full bg-[#4285F4] text-white hover:bg-[#4285F4]/80"
       >
         <GoogleLogoIcon />
         Google
@@ -153,10 +125,8 @@ function SocialAuthButtons({ providers }: SocialAuthButtonsProps) {
 
       <Button
         onClick={() => handleSocialLogin("github")}
-        className={cn(
-          "hidden flex-1 bg-[#2b3137] text-white hover:bg-[#2b3137]/80",
-          "github" in providers && "inline-flex",
-        )}
+        disabled={!("github" in providers)}
+        className="inline-flex w-full bg-[#2b3137] text-white hover:bg-[#2b3137]/80"
       >
         <GithubLogoIcon />
         GitHub
@@ -164,10 +134,8 @@ function SocialAuthButtons({ providers }: SocialAuthButtonsProps) {
 
       <Button
         onClick={() => handleSocialLogin("linkedin")}
-        className={cn(
-          "hidden flex-1 bg-[#0A66C2] text-white hover:bg-[#0A66C2]/80",
-          "linkedin" in providers && "inline-flex",
-        )}
+        disabled={!("linkedin" in providers)}
+        className="inline-flex w-full bg-[#0A66C2] text-white hover:bg-[#0A66C2]/80"
       >
         <LinkedinLogoIcon />
         LinkedIn

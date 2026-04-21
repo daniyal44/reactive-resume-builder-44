@@ -27,7 +27,7 @@ export function Copyright({ className, ...props }: Props) {
           <a
             target="_blank"
             rel="noopener"
-            href="https://daniyal44.com"
+            href="https://mdkworks.online"
             className="font-medium underline underline-offset-2"
           >
             Muhammad Daniyal
